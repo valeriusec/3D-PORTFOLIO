@@ -21,6 +21,7 @@ import codecademy from "./company/codecademy.png";
 
 import jammming from "./jammming.png";
 import fitclub from "./fitclub.png";
+import infopilot from './infopilot.png'
 
 export {
   logo,
@@ -42,5 +43,6 @@ export {
   threejs,
   codecademy,
   jammming,
-  fitclub
+  fitclub,
+  infopilot,
 };

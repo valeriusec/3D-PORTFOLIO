@@ -14,6 +14,7 @@ import {
     threejs,
     jammming,
     fitclub,
+    infopilot,
   } from "../assets";
   
   export const navLinks = [
@@ -168,6 +169,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "InfoPilot App",
+      description: "InfoPilot is a sleek and user-friendly React dashboard application built using Syncfusion components. Explore your data with confidence and ease using InfoPilot.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: 'syncfusion',
+          color: 'green-text-gradient'
+        }
+      ],
+      image: infopilot,
+      source_code_link: "https://github.com/valeriusec/dashboard-app",
+      demo_link: "https://infopilot.netlify.app/"
+    },
     {
       name: "Jammming App",
       description: "Jammming allows you to search for your favorite songs and create custom playlists. Once you've created your playlist, you can export it directly to your Spotify account.",
